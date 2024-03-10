@@ -1,1 +1,11 @@
-
+shapka {
+    weight: 1920;
+    height: 60;
+    background-color: aqua;
+}
+menu {
+    weight: 50;
+    height: 50;
+    border-radius: 10;
+    background-color: 0085FF;
+}
