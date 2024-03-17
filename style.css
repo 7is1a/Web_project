@@ -4,8 +4,11 @@
 }
 
 .menu {
-    width: 50;
-    height: 50;
-    border-radius: 10;
-    background-color: 0085FF;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #0085FF;
+}
+
+h1 {
+    text-align: center;
 }
