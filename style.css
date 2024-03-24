@@ -1,6 +1,10 @@
 .shapka {
     height: 60px;
-    background-color: aqua;
+    width: auto;
+    background-color: #445174;
+    filter: brightness(110);
+    position: relative;
+    top: auto;
 }
 
 .menu {
@@ -11,4 +15,47 @@
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+.menu_field {
+    background-color: #445174;
+    position: fixed;
+    width: 439px;
+    height: 106px;
+    top: 60px;
+    right: 1481px;
+}
+
+
+
+.button_GABM {
+    width: 185px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #0085FF;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.games {
+
+}
+
+.search {
+    width: 249px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #0085FF;
+    top: 16px;
+    right: 1378px;
+}
+
+.main {
+    background-color: #DBDBDB;
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
 }
