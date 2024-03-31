@@ -11,6 +11,7 @@
     width: 110px;
     border-radius: 10px;
     background-color: #0085FF;
+    cursor: pointer;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 }
 
 .menu_field {
+    display: none;
     background-color: #445174;
     position: fixed;
     width: 439px;
@@ -38,10 +40,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.games {
-
+    cursor: pointer;
 }
 
 .search {
@@ -51,6 +50,7 @@ h1 {
     background-color: #0085FF;
     top: 16px;
     right: 1378px;
+    cursor: pointer;
 }
 
 .main {
