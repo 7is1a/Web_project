@@ -1,51 +1,47 @@
-.title h1{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 40px;
-    margin-bottom: 50px;
-    color: whitesmoke;
-}
-.list_menu a{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 25px;
-    color: whitesmoke;
-    border-left: 2px solid pink;
-    padding-left: 5px;
-    transition: all 0.2s ease;
-}
-.list_menu a:hover{
-    border-left: 2px solid pink;
-    padding-left: 10px;
-    transition: all 0.2s ease;
-}
-.footer_menu p{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 15px;
-    color: whitesmoke;
-}
-.list_menu {
-    margin-bottom: 50px;
-}
-.list_menu li{
-    margin: 25px 0;
-    list-style-type: none;
-}
-.menu {
-    padding: 25vh 50px;
-    position: fixed;
-    background: rgba(20, 20, 20, 0.5);
-    height: 100vh;
-    backdrop-filter: blur(15px);
-    border-right: 7px solid whitesmoke;
-    left: -318px;
-    transition: all 1s ease;
-}
-.menu:hover{
-    left: 0;
-    transition: all 0.2s ease;
-}
-.background {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Нардист</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="title">
+        <h1>
+        Навигация
+        </h1>
+      </div>
+      <div class="list_menu">
+        <li>
+          <a href="#">
+            Игры
+          </a>
+        </li> <li>
+          <a href="#">
+            Музыка
+          </a>
+        </li> <li>
+          <a href="#">
+            Моды
+          </a>
+        </li> <li>
+          <a href="#">
+            Книги
+          </a>
+        </li>
+      </div>
+    
+      <div class="footer_menu">
+        <p>@Jista&SELEYRON</p>
+      </div> 
+     </div>
+    <div class="background">
+      <video width="100%" src="https://static.videezy.com/system/resources/previews/000/054/381/original/World-Map-Technology-2.mp4"
+        type="video/mp4" autoplay muted loop>
+      </video>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
