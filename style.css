@@ -43,9 +43,24 @@
     left: 0;
     transition: all 0.2s ease;
 }
+.menu_navigation {
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    border-right: 7px solid whitesmoke;
+}
 .background {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
+.list_music {
+    
+    width: 600px;
+    height: 100%;
+    margin: center;
+    background-color: aqua;
+}
