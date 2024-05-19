@@ -41,6 +41,7 @@
     transition: 1s ease;
 }
 .menu:hover{
+    position: fixed;
     left: 0;
     transition: 0.2s ease;
 }
