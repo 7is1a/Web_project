@@ -13,6 +13,7 @@
     transition: 0.2s ease;
 }
 .list_menu a:hover{
+    position: fixed;
     border-left: 2px solid pink;
     padding-left: 10px;
     transition: 0.2s ease;
